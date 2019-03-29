@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Cp",
+            "request": "launch",
+            "mainClass": "Cp",
+            "projectName": "java_4f1bfea6"
+        }
+    ]
+}
