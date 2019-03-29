@@ -27,7 +27,7 @@ class Ls{
         for(String dirPath:args){
             File dir = new File(dirPath);
             try{
-                System.out.printf("%s:\n", dir.getAbsoluteFile().toPath().normalize());
+                System.out.printf ("%s:\n", dir.getAbsoluteFile().toPath().normalize());
                 listDirectory(dir);
             }
             catch(Exception e){
